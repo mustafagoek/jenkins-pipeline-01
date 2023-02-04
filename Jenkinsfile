@@ -3,7 +3,7 @@ pipeline {
     stages {
        stage('build') {
            steps {
-	       echo'build has been started'
+	       echo'build has been comlated'
 	       sh 'echo Integrating pipeline using Jenkinsfile'
 	       	}
 	     }
