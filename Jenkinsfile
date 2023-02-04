@@ -5,8 +5,7 @@ pipeline {
            steps {
 	       echo'build has been completed'
            sh 'python --version'
-           sh 'python pipeline.py' #pipeline dosyasini calistir
-	       sh 'echo Integrating pipeline using Jenkinsfile'
+           sh 'python pipeline.py'
 	       	}
 	     }
     }
