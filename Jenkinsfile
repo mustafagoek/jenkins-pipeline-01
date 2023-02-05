@@ -11,7 +11,7 @@ pipeline {
 	     }
        stage ('test') {
             steps {
-             ls
+             sh 'ls'
              cat 'hello-world.py'
             }
          }
