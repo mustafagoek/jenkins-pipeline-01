@@ -12,7 +12,7 @@ pipeline {
        stage ('test') {
             steps {
              sh 'ls'
-             cat 'hello-world.py'
+             sh 'cat hello-world.py'
             }
          }
     }
