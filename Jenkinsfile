@@ -9,10 +9,12 @@ pipeline {
            sh 'cat Jenkinsfile'
 	       	}
 	     }
-         stage 'test'{
+       stage ('test') {
+            steps {
             ls
             cat 'hello-world.py'
+            }
+        
          }
-
     }
 }
