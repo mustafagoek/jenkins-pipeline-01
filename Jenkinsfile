@@ -6,6 +6,7 @@ pipeline {
 	       echo'build has been completed'
            sh 'python --version'
            sh 'python pipeline.py'
+           sh 'cat Jenkinsfile'
 	       	}
 	     }
     }
